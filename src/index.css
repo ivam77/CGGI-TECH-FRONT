@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 1024px) and (max-width: 4000px) {
+  .title {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .cda {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .carousel {
+    width: 14.8rem;
+    margin: 1rem;
+  }
+
+  .per {
+    width: 10rem;
+  }
+
+  .cda {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .image {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .carousel {
+    width: 10.7rem;
+    height: 20rem;
+    margin: 1rem;
+  }
+
+  .logo {
+    width: 10vh;
+  }
+
+  .per {
+    width: 9rem;
+  }
+
+  .ls {
+    gap: 0.5rem;
+    padding: 0.5rem;
+    width: 59%;
+  }
+
+  .carrito {
+    margin-left: 2rem;
+  }
+
+  .cda {
+    gap: 2rem;
+  }
+
+  .search {
+    width: 80%;
+  }
+
+  .a {
+    width: 5rem;
+  }
+
+  .anlr {
+    display: flex;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .image {
+    width: 5rem;
+    height: 7rem;
+  }
+
+  .carousel {
+    width: 10.5rem;
+    height: 20rem;
+    margin: 1rem;
+  }
+
+  .logo {
+    width: 5rem;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 650px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .search {
+    width: 15rem;
+  }
+
+  .div1 {
+    width: 30%;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .per {
+    width: 6rem;
+  }
+
+  .name {
+    visibility: hidden;
+  }
+
+  .cda {
+    gap: 2rem;
+  }
+
+  .R {
+    visibility: collapse;
+    width: 8rem;
+  }
+
+  .logo2 {
+    visibility: hidden;
+  }
+
+  .anlr {
+    gap: 0.2rem;
+  }
+
+  .ls {
+    gap: 0.2rem;
+  }
+
+  .carrito {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 430px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .image {
+    width: 5rem;
+    height: 7rem;
+  }
+
+  .carousel {
+    width: 10.5rem;
+    height: 20rem;
+    margin: 1rem;
+  }
+}
